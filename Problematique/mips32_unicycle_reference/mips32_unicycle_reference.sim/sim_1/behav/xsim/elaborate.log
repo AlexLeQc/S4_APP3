@@ -1,0 +1,13 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 53438254ed0147ce9eb70f874828dc26 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_unicycle_tb_behav xil_defaultlib.mips_unicycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-8437] comparison between unequal length arrays always returns FALSE, left argument length 6 is different from right argument length 4 for 'std_ulogic_vector' array [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/controleur.vhd:135]
+ERROR: [VRFC 10-3311] expression has 32 elements ; formal 'i_a' expects 128 [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:235]
+ERROR: [VRFC 10-3311] expression has 32 elements ; formal 'i_b' expects 128 [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:236]
+ERROR: [VRFC 10-3311] expression has 32 elements ; formal 'o_result' expects 128 [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:239]
+ERROR: [VRFC 10-3311] expression has 64 elements ; formal 'o_multres' expects 256 [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:240]
+ERROR: [VRFC 10-3353] formal port 'i_memreadwide' has no actual or default value [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:34]
+ERROR: [VRFC 10-3353] formal port 'i_memwritewide' has no actual or default value [C:/Users/alexi/OneDrive - USherbrooke/Uni/S4/APP3/Problematique/mips32_unicycle_reference/mips32_unicycle_reference.srcs/sources_1/imports/mips_datapath_unicycle.vhd:36]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mips_unicycle_tb in library work failed.
